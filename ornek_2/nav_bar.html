@@ -17,22 +17,32 @@
 
         .main-header {
             background-color: lightpink;
+            padding: 10px;
         }
 
-        a {
+        .nav_links {
             text-decoration: none;
             color: palevioletred;
+            margin-left: 15px;
+        }
+
+        .nav_link {
+            text-decoration: none;
+            color: palevioletred;
+            font-weight: bold;
+            font-size: larger;
         }
 
         .main-nav {
             display: inline-block;
-            width: calc(100% - 80px);
+            width: calc(100% - 91px);
             text-align: right;
         }
 
         .main-nav_items {
             list-style-type: none;
             margin: 0px;
+            padding: 0px;
         }
 
         .main-nav_item {
@@ -44,12 +54,12 @@
 
 <body>
     <header class="main-header">
-        <a href="#">MovieApp</a>
+        <a href="#" class="nav_link">MovieApp</a>
         <nav class="main-nav">
             <ul class="main-nav_items">
-                <li class="main-nav_item"><a href="#">Home</a></li>
-                <li class="main-nav_item"><a href="#">Movies</a></li>
-                <li class="main-nav_item"><a href="#">Contact</a></li>
+                <li class="main-nav_item"><a href="#" class="nav_links">Home</a></li>
+                <li class="main-nav_item"><a href="#" class="nav_links">Movies</a></li>
+                <li class="main-nav_item"><a href="#" class="nav_links">Contact</a></li>
             </ul>
         </nav>
     </header>
