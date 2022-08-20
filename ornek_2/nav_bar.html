@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0px;
         }
@@ -25,6 +29,15 @@
             width: calc(100% - 80px);
             text-align: right;
         }
+
+        .main-nav_items {
+            list-style-type: none;
+            margin: 0px;
+        }
+
+        .main-nav_item {
+            display: inline-block;
+        }
     </style>
 
 </head>
@@ -33,9 +46,11 @@
     <header class="main-header">
         <a href="#">MovieApp</a>
         <nav class="main-nav">
-            <a href="#">Home</a>
-            <a href="#">Movies</a>
-            <a href="#">Contact</a>
+            <ul class="main-nav_items">
+                <li class="main-nav_item"><a href="#">Home</a></li>
+                <li class="main-nav_item"><a href="#">Movies</a></li>
+                <li class="main-nav_item"><a href="#">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
