@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.main-header {
+    background-color: #000;
+    padding: 10px;
+}
+
+.nav_links {
+    text-decoration: none;
+    color: #FFC600;
+    margin-left: 15px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #FFC600;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.main-nav {
+    display: inline-block;
+    width: calc(100% - 91px);
+    text-align: right;
+}
+
+.main-nav_items {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-nav_item {
+    display: inline-block;
+}
+
+#anabaslik {
+    background-color: #346;
+    width: 60%;
+    margin: 30px auto 40px;
+    padding: 50px;
+}
+
+h1 {
+    padding: 20px;
+    margin: auto;
+    background-color: aliceblue;
+    border: 5px dotted aquamarine;
+    width: max-content;
+}
+
+#acıklama {
+    background-color: #9a4;
+    width: 40%;
+    margin: auto;
+    padding: 50px;
+}
+
+h2 {
+    padding: 20px;
+    width: max-content;
+    margin: auto;
+    background-color: beige;
+    border: 3px solid green;
+}
+
+#icerik {
+    background-color: #578943;
+    margin-top: 10px;
+    margin-left: 330px;
+    padding-left: 300px;
+    padding-right: 300px;
+    width: max-content;
+}
+
+h3 {
+    width: max-content;
+    background-color: #9a4;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
