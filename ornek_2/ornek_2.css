@@ -18,6 +18,19 @@ body {
     margin-left: 15px;
 }
 
+.nav_links:hover {
+    color: #E900FF;
+}
+
+a.nav_links::before {
+    content: '\2022';
+    padding: 3px;
+}
+
+.nav_links:hover::before {
+    color: #E900FF;
+}
+
 .nav_link {
     text-decoration: none;
     color: #FFC600;
@@ -143,25 +156,25 @@ div>a:active {
     text-align: center;
 }
 
-.tanimlar>.tanim1 {
+p.tanim1 {
     display: inline-block;
     visibility: none;
     margin-left: 30px;
     margin-right: 30px;
 }
 
-.tanimlar>.tanim2 {
+p.tanim2 {
     display: inline-block;
     margin-left: 40px;
     margin-right: 30px;
 }
 
-.tanimlar>.tanim3 {
+p.tanim3 {
     display: inline-block;
     margin-left: 30px;
     margin-right: 30px;
 }
 
-.dügme1:hover+.tanim1 {
+a.dügme1:hover+p.tanim1 {
     visibility: visible;
 }
