@@ -4,22 +4,27 @@
 }
 
 body {
-    background-color: #000;
+    background: #e0d8b0c9;
+}
+
+main {
+    background-image: url(tablebackground.jpg);
+    background-position: fixed;
 }
 
 .main-header {
-    background-color: #000;
+    background: #CE9461;
     padding: 10px;
 }
 
 .nav_links {
     text-decoration: none;
-    color: #FFC600;
+    color: #E0D8B0;
     margin-left: 15px;
 }
 
 .nav_links:hover {
-    color: #E900FF;
+    color: #FCFFE7;
 }
 
 a.nav_links::before {
@@ -28,12 +33,12 @@ a.nav_links::before {
 }
 
 .nav_links:hover::before {
-    color: #E900FF;
+    color: #FCFFE7;
 }
 
 .nav_link {
     text-decoration: none;
-    color: #FFC600;
+    color: #E0D8B0;
     font-weight: bold;
     font-size: larger;
 }
@@ -55,7 +60,7 @@ a.nav_links::before {
 }
 
 #anabaslik {
-    background-color: #000;
+    margin: auto;
     width: 100%;
     padding: 30px;
 }
@@ -63,40 +68,58 @@ a.nav_links::before {
 h1 {
     padding: 20px;
     margin: auto;
-    background-color: #f0f8ff;
-    border: 5px #5800FF;
+    background-color: #f0f8ff6b;
+    border: 5px #de9f579f;
     border-style: double;
     width: 70%;
     text-align: center;
 }
 
-#acıklama {
-    background-color: #5800FF;
-    width: 50%;
-    margin: auto;
-    padding: 20px;
+#nasilyapilir {
+    color: #FCFFE7;
+    text-align: center;
+    margin: 30px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #de9f57a9;
+    border: 2px solid #fcffe752;
 }
 
-h2 {
-    padding: 20px;
-    width: 80%;
-    margin: auto;
-    background-color: beige;
-    border: 3px solid #FFC600;
-    text-align: center;
+#nasil1 {
+    font-size: 30px;
+    height: 80px;
+}
+
+#nasil1_ {
+    font-weight: lighter;
+}
+
+#nasil2,
+#nasil3,
+#nasil4 {
+    height: 50px;
+    font-size: 25px;
+}
+
+#nasil2_,
+#nasil3_,
+#nasil4_ {
+    width: 280px;
+    font-size: 15px;
 }
 
 #icerik {
-    background-color: #E900FF;
+    background-color: #CE9461;
     width: 100%;
     height: 22px;
-    margin-top: 10px;
+    margin-top: 50px;
     text-align: center;
 }
 
-h3 {
+#icerik_baslık {
     width: max-content;
-    background-color: #FFC600;
+    background-color: #E0D8B0;
+    color: #ca8d47;
     border-left: 5px solid white;
     border-right: 5px solid white;
     display: inline-block;
@@ -105,8 +128,8 @@ h3 {
 }
 
 .dügmeler {
-    margin: 100px;
-    margin-bottom: 10px;
+    margin: 100px auto;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -120,51 +143,29 @@ h3 {
 }
 
 .dügmeler>a:link {
-    border: 1.5px solid #FFC600;
+    border: 1.5px solid #CE9461;
     border-radius: 10%;
-    background-color: #FFC600;
+    background-color: #CE9461;
     color: white;
     font-weight: bold;
 }
 
 .dügmeler>a:visited {
     color: white;
-    border: #FFC600;
+    border: #CE9461;
     border-radius: 10%;
 }
 
 .dügmeler>a:hover {
-    background-color: #5800FF;
-    border: 1.5px solid #5800FF;
+    background-color: #E0D8B0;
+    border: 1.5px solid #E0D8B0;
+    color: #CE9461;
     border-radius: 10%;
 }
 
 .dügmeler>a:active {
-    background-color: #E900FF;
-    border: 1.5px solid #E900FF;
+    background-color: #DEA057;
+    color: #FCFFE7;
+    border: 1.5px solid #DEA057;
     border-radius: 10%;
-}
-
-#tanimlar {
-    margin-top: 10px;
-    margin-left: 200px;
-}
-
-#tanimlar>p {
-    color: white;
-    display: inline-block;
-    width: 120px;
-    text-align: center;
-}
-
-.tanim1 {
-    margin-left: 260px;
-}
-
-.tanim2 {
-    margin-left: 55px;
-}
-
-.tanim3 {
-    margin-left: 58px;
 }
