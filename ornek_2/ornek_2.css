@@ -104,12 +104,13 @@ h3 {
     padding-right: 5px;
 }
 
-div {
+.dügmeler {
     margin: 100px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
-div>a {
+.dügmeler>a {
     display: inline-block;
     text-decoration: none;
     width: 150px;
@@ -118,7 +119,7 @@ div>a {
     margin-left: 30px;
 }
 
-div>a:link {
+.dügmeler>a:link {
     border: 1.5px solid #FFC600;
     border-radius: 10%;
     background-color: #FFC600;
@@ -126,55 +127,44 @@ div>a:link {
     font-weight: bold;
 }
 
-div>a:visited {
+.dügmeler>a:visited {
     color: white;
     border: #FFC600;
     border-radius: 10%;
 }
 
-div>a:hover {
+.dügmeler>a:hover {
     background-color: #5800FF;
     border: 1.5px solid #5800FF;
     border-radius: 10%;
 }
 
-div>a:active {
+.dügmeler>a:active {
     background-color: #E900FF;
     border: 1.5px solid #E900FF;
     border-radius: 10%;
 }
 
-.tanimlar {
+#tanimlar {
     margin-top: 10px;
-    display: inline-block;
+    margin-left: 200px;
 }
 
-.tanimlar>p {
+#tanimlar>p {
     color: white;
+    display: inline-block;
     width: 120px;
-    height: 75px;
     text-align: center;
 }
 
-p.tanim1 {
-    display: inline-block;
-    visibility: none;
-    margin-left: 30px;
-    margin-right: 30px;
+.tanim1 {
+    margin-left: 260px;
 }
 
-p.tanim2 {
-    display: inline-block;
-    margin-left: 40px;
-    margin-right: 30px;
+.tanim2 {
+    margin-left: 55px;
 }
 
-p.tanim3 {
-    display: inline-block;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-a.dügme1:hover+p.tanim1 {
-    visibility: visible;
+.tanim3 {
+    margin-left: 58px;
 }
