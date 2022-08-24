@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #e0d8b0c9;
+    background: #E0D8B0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -143,7 +143,7 @@ h1 {
 
 .dügmeler {
     margin: 100px auto;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     text-align: center;
 }
 
@@ -186,4 +186,43 @@ h1 {
     color: #FCFFE7;
     border: 1.5px solid #DEA057;
     border-radius: 10%;
+}
+
+.features {
+    margin-bottom: 100px;
+}
+
+#features__photo {
+    width: 50%;
+    display: inline-block;
+}
+
+#features__content {
+    width: 45%;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+#content {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+#features__link {
+    text-decoration: none;
+    display: inline-block;
+    color: #CE9461;
+    border: 2.5px solid #CE9461;
+    padding: 3px;
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+#features__link:hover {
+    color: #E0D8B0;
+    background-color: #CE9461;
+    border: 2.5px solid #E0D8B0;
 }
