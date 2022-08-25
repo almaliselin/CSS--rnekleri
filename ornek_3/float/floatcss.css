@@ -1,0 +1,36 @@
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+}
+
+/*inline block ve inline'da text align kullanabiliriz ama block'da kullanılmaz.*/
+/*inline block, blockların inline haline bürünmesidir. Aynı satırda sıralanabilir. Aşağıdaki şekilde.*/
+
+/*.box {
+    display: inline-block;
+}
+
+#container {
+    text-align: center;
+}*/
+
+/*inline için text align kullandığımızda yer ayarlanır ama içerik olması lazım, eğer boş olursa gözükmez.*/
+
+/*.box {
+    display: inline;
+}
+
+#container {
+    text-align: center;
+}*/
+/*float özelliğinde display içeriğinin önemi yok*/
+
+.box {
+    display: block;
+    float: left;
+}
+
+#container {
+    float: right;
+}
