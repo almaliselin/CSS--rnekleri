@@ -189,7 +189,7 @@ h1 {
 }
 
 .features {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 #features__photo {
@@ -225,4 +225,51 @@ h1 {
     color: #E0D8B0;
     background-color: #CE9461;
     border: 2.5px solid #E0D8B0;
+}
+
+.plans {
+    margin: 10px auto;
+    padding: 10px;
+    width: 98%;
+}
+
+.planbaslık {
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 40px;
+    font-size: x-large;
+}
+
+.plan {
+    float: left;
+    text-align: center;
+    border: 1px solid #CE9461;
+    color: #FCFFE7;
+    background-color: #CE9461;
+    width: 30%;
+    margin: 10px;
+}
+
+.plan>h4,
+.plan>h3,
+.plan>p,
+.plan>button {
+    margin: 15px;
+}
+
+.plan>ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.yer {
+    width: 98%;
+    margin: 0 50px;
 }
