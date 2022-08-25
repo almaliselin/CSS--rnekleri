@@ -1,0 +1,47 @@
+header,
+footer {
+    background-color: #72147E;
+    padding: 20px;
+    margin: 10px;
+    color: #FA9905;
+}
+
+aside {
+    margin: 5px;
+}
+
+nav {
+    float: left;
+    width: 25%;
+}
+
+a {
+    text-decoration: none;
+    border: 2px solid #72147E;
+    color: #FA9905;
+    background-color: #72147E;
+    padding: 20px;
+    margin: 5px;
+    display: block;
+}
+
+a:hover {
+    border: #FA9905;
+    color: #72147E;
+    background-color: #FA9905;
+}
+
+main {
+    width: 70%;
+    float: right;
+}
+
+main>p {
+    font-size: large;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
