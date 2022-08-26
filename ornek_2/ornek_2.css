@@ -1,9 +1,9 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
 }
 
 body {
+    margin: 0px;
     background: #E0D8B0;
     font-family: 'Poppins', sans-serif;
 }
@@ -229,13 +229,11 @@ h1 {
 
 .plans {
     margin: 10px auto;
-    padding: 10px;
     width: 98%;
 }
 
 .planbaslık {
     text-align: center;
-    margin: 30px;
     margin-bottom: 40px;
     font-size: x-large;
 }
@@ -251,29 +249,43 @@ h1 {
     border: 1px solid #CE9461;
     color: #FCFFE7;
     background-color: #CE9461;
-    padding: 50px 5px;
+    padding: 20px 5px;
 }
 
-.plan>h4,
-.plan>h3,
-.plan>p,
-.plan>button {
-    margin: 15px;
+.recommended {
+    background-color: #E0D8B0;
+    color: #CE9461;
 }
 
-.plan>ul {
+.recommended>h3 {
+    font-weight: 700;
+    border-bottom: 1px dotted #CE9461;
+}
+
+.inner>h4,
+.inner>h3,
+.inner>p,
+.inner>button {
+    margin: 5px;
+}
+
+.inner>ul {
     list-style-type: none;
     text-align: center;
-    padding-left: 30px;
+    padding-left: 0px;
+}
+
+.inner>ul>li {
+    margin: 3px;
+}
+
+.yer {
+    width: 98%;
+    margin: 0 50px;
 }
 
 .clearfix {
     content: "";
     display: block;
     clear: both;
-}
-
-.yer {
-    width: 98%;
-    margin: 0 50px;
 }
