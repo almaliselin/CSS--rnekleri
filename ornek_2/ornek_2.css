@@ -1,9 +1,9 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
 }
 
 body {
-    margin: 0px;
     background: #E0D8B0;
     font-family: 'Poppins', sans-serif;
 }
@@ -15,7 +15,7 @@ main {
 
 .main-header {
     background: #CE9461;
-    padding: 10px;
+    padding: 5px;
 }
 
 .nav_links {
@@ -37,25 +37,9 @@ a.nav_links::before {
     color: #FCFFE7;
 }
 
-.nav_link {
-    text-decoration: none;
-    color: #E0D8B0;
-    padding: 4px 4px;
-    font-weight: bold;
-    font-size: larger;
-    border: 2px solid #E0D8B0;
-    border-radius: 30%;
-}
-
-.nav_link:hover {
-    color: #CE9461;
-    background-color: #E0D8B0;
-    border-color: #CE9461;
-}
-
 .main-nav {
     display: inline-block;
-    width: calc(100% - 115px);
+    width: calc(100% - 134px);
     text-align: right;
 }
 
@@ -139,6 +123,7 @@ h1 {
     display: inline-block;
     padding-left: 5px;
     padding-right: 5px;
+    margin: 0px;
 }
 
 .dügmeler {
@@ -158,35 +143,10 @@ h1 {
     height: 180px;
     padding: 70px 20px 20px;
     margin: auto 30px;
-}
-
-.dügmeler>a:link {
-    border: 1.5px solid #CE9461;
-    border-radius: 10%;
-    background-color: #CE9461;
-    color: white;
-    font-weight: bold;
-}
-
-.dügmeler>a:visited {
-    color: white;
-    border: #CE9461;
+    font-weight: 500;
     border-radius: 10%;
 }
 
-.dügmeler>a:hover {
-    background-color: #E0D8B0;
-    border: 1.5px solid #E0D8B0;
-    color: #CE9461;
-    border-radius: 10%;
-}
-
-.dügmeler>a:active {
-    background-color: #DEA057;
-    color: #FCFFE7;
-    border: 1.5px solid #DEA057;
-    border-radius: 10%;
-}
 
 .features {
     margin-bottom: 50px;
@@ -212,19 +172,8 @@ h1 {
 }
 
 #features__link {
-    text-decoration: none;
-    display: inline-block;
-    color: #CE9461;
-    border: 2.5px solid #CE9461;
-    padding: 3px;
-    margin-top: 20px;
-    margin-left: 12px;
-}
-
-#features__link:hover {
-    color: #E0D8B0;
-    background-color: #CE9461;
-    border: 2.5px solid #E0D8B0;
+    width: 25%;
+    font-size: medium;
 }
 
 .plans {
@@ -265,7 +214,7 @@ h1 {
 .inner>h4,
 .inner>h3,
 .inner>p,
-.inner>button {
+.inner>.choose {
     margin: 5px;
 }
 
@@ -288,4 +237,40 @@ h1 {
     content: "";
     display: block;
     clear: both;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.btn-p {
+    border-color: #CE9461;
+    background-color: #E0D8B0;
+    color: #CE9461;
+}
+
+.btn-p:hover {
+    border-color: #CE9461;
+    background-color: #CE9461;
+    color: #E0D8B0;
+}
+
+.btn-s {
+    border-color: #CE9461;
+    background-color: #CE9461;
+    color: #FCFFE7;
+}
+
+.btn-s:hover {
+    border-color: #FCFFE7;
+    background-color: #FCFFE7;
+    color: #CE9461;
 }
