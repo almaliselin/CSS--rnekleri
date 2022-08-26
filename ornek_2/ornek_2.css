@@ -242,12 +242,16 @@ h1 {
 
 .plan {
     float: left;
+    width: 30%;
+    margin: 10px;
+}
+
+.inner {
     text-align: center;
     border: 1px solid #CE9461;
     color: #FCFFE7;
     background-color: #CE9461;
-    width: 30%;
-    margin: 10px;
+    padding: 50px 5px;
 }
 
 .plan>h4,
