@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            height: 2000px;
+            position: relative;
+        }
+
+        .box {
+            margin: 5px;
+            border: 2px solid orangered;
+            padding: 5px;
+        }
+
+        .navbar {
+            background-color: olivedrab;
+            width: 100%;
+            position: fixed;
+            top: 0;
+        }
+
+        .content {
+            background-color: orchid;
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        .footer {
+            background-color: orange;
+            position: absolute;
+            width: 100%;
+            margin: 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Z-index, üst üste gelmiş iki içeriğin hangisinin üstte hangisinin altta gösterileceğini ayarlamak için kullanılır. bir bloğu altta göstermek için, position: absolute, z-index: -1,-2,-3.... -->
+    <!--  fixed position'da blok viewport alanına göre konumlanır. Aşağıya scroll yapıldığında blok da hareket eder. -->
+
+
+    <div class="box navbar">Navbar</div>
+    <div class="box content">Content</div>
+    <div class="box footer">Footer</div>
+
+
+
+</body>
+
+</html>
