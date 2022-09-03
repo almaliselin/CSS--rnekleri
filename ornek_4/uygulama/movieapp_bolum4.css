@@ -395,3 +395,44 @@ h1 {
     float: left;
     width: 33.3%;
 }
+
+.afisler {
+    width: 100%;
+    /* float: left; */
+}
+
+.afis1,
+.afis2,
+.afis3 {
+    float: left;
+    width: 130px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.afis1 {
+    background-image: url(galeri_164.jpg);
+}
+
+.afis2 {
+    background-image: url(Passengers_afiş.jpg);
+}
+
+.afis3 {
+    background-image: url(lordofwar.jpg);
+}
+
+.baslıklar {
+    float: left;
+    width: 100%;
+}
+
+.baslık1,
+.baslık2,
+.baslık3 {
+    float: left;
+    width: 130px;
+    height: 150px;
+}
