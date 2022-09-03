@@ -1,0 +1,386 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #E0D8B0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.up {
+
+    border: 2px solid transparent;
+    border-radius: 45%;
+    background-color: #de9f5775;
+    position: fixed;
+    z-index: 10;
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+}
+
+.up:hover {
+    cursor: pointer;
+    background-color: #DEA057;
+    transition: background-color .2s;
+}
+
+.upsekil {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.upsekil>i {
+    color: #E0D8B0;
+    font-size: 20px;
+    position: absolute;
+    top: 13px;
+    right: 18px;
+}
+
+.main-header {
+    background: #CE9461;
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    position: relative;
+    top: 0;
+}
+
+.anakısım {
+    z-index: 10;
+    position: absolute;
+    left: 20%;
+    top: 3px;
+    height: 55px;
+    width: 60%;
+    padding: 5px;
+}
+
+.anakısım>a {
+    margin: 0;
+    margin-left: 5px;
+}
+
+
+.nav_links {
+    text-decoration: none;
+    color: #E0D8B0;
+    /* margin-left: 15px; */
+}
+
+.nav_links:hover {
+    color: #FCFFE7;
+}
+
+a.nav_links::before {
+    content: '\2022';
+    padding: 3px;
+}
+
+.nav_links:hover::before {
+    color: #FCFFE7;
+}
+
+.main-nav {
+    display: inline-block;
+    width: calc(100% - 134px);
+    text-align: right;
+}
+
+.main-nav_items {
+    list-style-type: none;
+    margin: 3px;
+    padding: 0px;
+}
+
+.main-nav_item {
+    display: inline-block;
+}
+
+main {
+    background-image: linear-gradient(to bottom left, #f0f8ff8f, #de9f5798), url(pexels-andrea-piacquadio-3811867.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+}
+
+#anabaslik {
+    position: absolute;
+    top: 180px;
+    left: 300px;
+    width: 60%;
+    background-color: #f0f8ff4f;
+    border: 5px #de9f579f;
+    border-style: double;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h1 {
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.gecis {
+    background-color: #CE9461;
+    width: 100%;
+    height: 29px;
+}
+
+#nasilyapilir {
+    color: #FCFFE7;
+    text-align: center;
+    margin: 30px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #de9f5762;
+    border: 2px solid #fcffe752;
+}
+
+.nicon {
+    font-size: 40px;
+}
+
+#nasil1 {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 80px;
+}
+
+#nasil1_ {
+    font-weight: 400;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nasil2,
+#nasil3,
+#nasil4 {
+    height: 50px;
+    font-size: 25px;
+}
+
+#nasil2_,
+#nasil3_,
+#nasil4_ {
+    width: 280px;
+    font-size: 15px;
+}
+
+#icerik {
+    background-color: #CE9461;
+    width: 100%;
+    height: 29px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#icerik_baslık {
+    width: max-content;
+    background-color: #E0D8B0;
+    color: #ca8d47;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
+}
+
+.dügmeler {
+    margin: 100px auto;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#icon {
+    color: #DEA057;
+}
+
+.dügmeler>a {
+    display: inline-block;
+    text-decoration: none;
+    width: 150px;
+    height: 180px;
+    padding: 70px 20px 20px;
+    margin: auto 30px;
+    font-weight: 500;
+    border-radius: 10%;
+    box-shadow: -5px 5px 10px 3px #ca8d478c;
+    transition: box-shadow .2s;
+}
+
+.dügmeler>a:hover {
+    box-shadow: -5px 5px 10px 5px #ca8d47;
+}
+
+.features {
+    margin-bottom: 50px;
+}
+
+#features__photo {
+    width: 50%;
+    display: inline-block;
+}
+
+#features__content {
+    width: 45%;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+#content {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+#features__link {
+    width: 25%;
+    font-size: medium;
+}
+
+.plans {
+    margin: 10px auto;
+    width: 98%;
+}
+
+.planbaslık {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: x-large;
+}
+
+.plan {
+    float: left;
+    width: 30%;
+    margin: 10px;
+}
+
+.inner {
+    text-align: center;
+    border: 1px solid #CE9461;
+    color: #FCFFE7;
+    background-color: #CE9461;
+    padding: 20px 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.recommended {
+    background-color: #E0D8B0;
+    color: #CE9461;
+}
+
+.recommended>h3 {
+    font-weight: 700;
+    border-bottom: 1px dotted #CE9461;
+}
+
+.inner>h4,
+.inner>h3,
+.inner>p,
+.inner>.choose {
+    margin: 5px;
+}
+
+.inner>ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.inner>ul>li {
+    margin: 3px;
+}
+
+.yer {
+    width: 98%;
+    height: 400px;
+    margin: 0 50px;
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.btn-p {
+    border-color: #CE9461;
+    background-color: #E0D8B0;
+    color: #CE9461;
+    transition-duration: .4s;
+}
+
+.btn-p:hover {
+    border-color: #CE9461;
+    background-color: #CE9461;
+    color: #E0D8B0;
+}
+
+.btn-s {
+    border-color: #CE9461;
+    background-color: #CE9461;
+    color: #FCFFE7;
+    transition-duration: .4s;
+}
+
+.btn-s:hover {
+    border-color: #FCFFE7;
+    background-color: #FCFFE7;
+    color: #CE9461;
+}
+
+.recommended>.choose {
+    border-color: transparent;
+}
+
+.sayilar {
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(to bottom, #E0D8B0, #CE9461);
+    margin-bottom: 50px;
+}
+
+.sayilar>div {
+    text-align: center;
+    float: left;
+    margin: 50px;
+    margin-left: 280px;
+}
+
+.sayilar>div>p {
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 22px;
+}
