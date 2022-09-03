@@ -365,17 +365,13 @@ h1 {
 }
 
 .sayilar {
-    width: 100%;
     height: 150px;
     background-image: linear-gradient(to bottom, #E0D8B0, #CE9461);
-    margin-bottom: 50px;
 }
 
 .sayilar>div {
     text-align: center;
-    float: left;
-    margin: 50px;
-    margin-left: 280px;
+    margin-top: 50px;
 }
 
 .sayilar>div>p {
@@ -383,4 +379,19 @@ h1 {
     margin: 0;
     padding: 0;
     height: 22px;
+}
+
+.row {
+    margin-bottom: 50px;
+}
+
+.row::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.col3 {
+    float: left;
+    width: 33.3%;
 }
