@@ -397,7 +397,7 @@ h1 {
 }
 
 .moviecards {
-    position: absolute;
+    position: relative;
     left: 355px;
 }
 
@@ -456,4 +456,45 @@ h1 {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     /* top: -10px; */
     transform: translateY(-10px);
+}
+
+.footer {
+    background-color: #CE9461;
+    height: 90px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.footer>.footeric>.links,
+.footer>.footeric>.icons {
+    display: inline-block;
+}
+
+.footeric {
+    width: 60%;
+    position: absolute;
+    left: 300px;
+    top: 20px;
+}
+
+.footeric>.links>a {
+    text-decoration: none;
+    color: #E0D8B0;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.footeric>.icons {
+    width: calc(60% - 3px);
+    text-align: right;
+}
+
+.footeric>.icons>a {
+    text-decoration: none;
+}
+
+.footeric>.icons>a>i {
+    color: #E0D8B0;
+    font-size: 30px;
+    padding: 10px;
 }
