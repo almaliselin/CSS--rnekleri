@@ -396,43 +396,64 @@ h1 {
     width: 33.3%;
 }
 
-.afisler {
-    width: 100%;
-    /* float: left; */
+.moviecards {
+    position: absolute;
+    left: 355px;
 }
 
-.afis1,
-.afis2,
-.afis3 {
-    float: left;
-    width: 130px;
-    height: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+.film1,
+.film2,
+.film3 {
+    display: inline-block;
+    width: 220px;
+    height: 480px;
+    position: relative;
+    border-color: transparent;
+    /* top: 0; */
+    transition: all .5s;
 }
 
-.afis1 {
-    background-image: url(galeri_164.jpg);
+.film1>img,
+.film2>img,
+.film3>img {
+    position: absolute;
+    left: 10px;
+    width: 200px;
+    height: 300px;
 }
 
-.afis2 {
-    background-image: url(Passengers_afiş.jpg);
+.film1>h3,
+.film2>h3,
+.film3>h3 {
+    position: absolute;
+    top: 310px;
+    left: 15px;
 }
 
-.afis3 {
-    background-image: url(lordofwar.jpg);
+.film1>p,
+.film2>p,
+.film3>p {
+    width: 180px;
+    font-size: 12px;
+    font-weight: 300;
+    position: absolute;
+    top: 340px;
+    left: 15px;
 }
 
-.baslıklar {
-    float: left;
-    width: 100%;
+.film1>input,
+.film2>input,
+.film3>input {
+    position: absolute;
+    top: 415px;
+    left: 15px;
 }
 
-.baslık1,
-.baslık2,
-.baslık3 {
-    float: left;
-    width: 130px;
-    height: 150px;
+.film1:hover,
+.film2:hover,
+.film3:hover {
+    border: 1px solid transparent;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* top: -10px; */
+    transform: translateY(-10px);
 }
