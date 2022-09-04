@@ -115,7 +115,7 @@ a.nav_links::before {
     display: inline-block;
 }
 
-main {
+.anabaslıkarka {
     background-image: linear-gradient(to bottom left, #f0f8ff8f, #de9f5798), url(pexels-andrea-piacquadio-3811867.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -356,13 +356,13 @@ h1 {
 .btn-s {
     border-color: #CE9461;
     background-color: #CE9461;
-    color: #FCFFE7;
+    color: #E0D8B0;
     transition-duration: .4s;
 }
 
 .btn-s:hover {
-    border-color: #FCFFE7;
-    background-color: #FCFFE7;
+    border-color: #E0D8B0;
+    background-color: #E0D8B0;
     color: #CE9461;
 }
 
@@ -503,4 +503,24 @@ h1 {
     color: #E0D8B0;
     font-size: 30px;
     padding: 10px;
+}
+
+
+/* Register form css */
+
+.signup {
+    background-color: #E0D8B0;
+}
+
+.signup>h1 {
+    width: 30%;
+}
+
+.signupform {
+    width: 100%;
+    padding-left: 3px;
+}
+
+.signupform>label {
+    font-size: 14px;
 }
