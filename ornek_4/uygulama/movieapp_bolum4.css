@@ -506,23 +506,3 @@ h1 {
     font-size: 30px;
     padding: 10px;
 }
-
-
-/* Register form css */
-
-.signup {
-    background-color: #E0D8B0;
-}
-
-.signup>h1 {
-    width: 30%;
-}
-
-.signupform {
-    width: 100%;
-    padding-left: 3px;
-}
-
-.signupform>label {
-    font-size: 14px;
-}

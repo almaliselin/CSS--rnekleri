@@ -1,0 +1,38 @@
+.signup {
+    background-color: #E0D8B0;
+    width: 66%;
+    margin: auto;
+}
+
+.signup>h1 {
+    width: 100%;
+    text-align: center;
+    color: #CE9461;
+}
+
+.signupform {
+    width: 100%;
+
+}
+
+.signupform label,
+.signupform input:not([type="checkbox"]),
+.signupform select {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.signupform input[type="checkbox"],
+.signupform input[type="checkbox"]+label {
+    display: inline-block;
+    width: auto;
+}
+
+.signupform>label {
+    font-size: 18px;
+}
+
+.signup button {
+    margin: 10px 5px;
+}
