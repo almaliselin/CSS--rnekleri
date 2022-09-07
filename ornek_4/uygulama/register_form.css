@@ -36,3 +36,9 @@
 .signup button {
     margin: 10px 5px;
 }
+
+.signupform input:not([type="checkbox"]),
+.signupform select {
+    border: 1px solid #E0D8B0;
+    padding: 10px 15px;
+}
