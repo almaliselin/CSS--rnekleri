@@ -1,6 +1,6 @@
 .signup {
     background-color: #E0D8B0;
-    width: 66%;
+    width: 60%;
     margin: auto;
 }
 
@@ -41,4 +41,28 @@
 .signupform select {
     border: 1px solid #E0D8B0;
     padding: 10px 15px;
+}
+
+.signupform input:not([type="checkbox"]):focus,
+.signupform select:focus {
+    outline: none;
+    background-color: #E0D8B0;
+    color: #fff;
+    border: 1px solid #CE9461;
+}
+
+.signupform input[type="checkbox"] {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #E0D8B0;
+    background: #fff;
+}
+
+.signupform input[type="checkbox"]:hover {
+    background-color: #CE9461;
+}
+
+.signupform input[type="checkbox"]:checked {
+    background-color: #CE9461;
 }
