@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: cadetblue;
+        }
+
+        h1 {
+            display: none;
+        }
+
+        /* phones */
+        @media (min-width: 300px) and (max-width: 600px) {
+            body {
+                background-color: aqua;
+            }
+
+            .phones h1 {
+                display: block;
+            }
+        }
+
+
+        /* tablets */
+        @media (min-width: 600px) and (max-width: 1000px) {
+            body {
+                background-color: cornflowerblue;
+            }
+
+            .tablets h1 {
+                display: block;
+            }
+        }
+
+
+        /* desktop */
+        @media (min-width: 1000px) and (max-width:1200px) {
+            body {
+                background-color: darkcyan;
+            }
+
+            .desktop h1 {
+                display: block;
+            }
+        }
+
+        /* large desktop */
+        @media (min-width: 1200px) and (max-width: 1400px) {
+            body {
+                background-color: darkslategray;
+            }
+
+            .largedesktop h1 {
+                display: block;
+            }
+        }
+
+        /* xlarge desktop */
+        @media (min-width: 1400px) {
+            body {
+                background-color: deepskyblue;
+            }
+
+            .xlargedesktop h1 {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="phones">
+        <h1>phones</h1>
+    </div>
+    <div class="tablets">
+        <h1>tablets</h1>
+    </div>
+    <div class="desktop">
+        <h1>desktop</h1>
+    </div>
+    <div class="largedesktop">
+        <h1>largedesktop</h1>
+    </div>
+    <div class="xlargedesktop">
+        <h1>xlargedesktop</h1>
+    </div>
+
+
+</body>
+
+</html>
