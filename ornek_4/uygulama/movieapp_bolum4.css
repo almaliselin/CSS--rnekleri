@@ -1,19 +1,7 @@
 @import url(https://kit.fontawesome.com/315a16516c.js);
-
+@import url(base.css);
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,500&family=Poppins:wght@200;400&display=swap');
 
-
-
-* {
-    box-sizing: border-box;
-    margin: 0px;
-}
-
-html {
-    scroll-behavior: smooth;
-    width: 100%;
-    height: 100%;
-}
 
 body {
     background: #E0D8B0;
@@ -267,7 +255,7 @@ h1 {
 
 .plans {
     margin: 10px auto;
-    width: 98%;
+    width: 100%;
 }
 
 .planbaslık {
@@ -322,12 +310,6 @@ h1 {
     width: 98%;
     height: 400px;
     margin: 0 50px;
-}
-
-.clearfix {
-    content: "";
-    display: block;
-    clear: both;
 }
 
 .btn {
@@ -387,21 +369,6 @@ h1 {
     margin: 0;
     padding: 0;
     height: 22px;
-}
-
-.row {
-    margin-bottom: 50px;
-}
-
-.row::after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
-.col3 {
-    float: left;
-    width: 33.3%;
 }
 
 .moviecards {
