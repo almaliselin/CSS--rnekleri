@@ -31,7 +31,8 @@ html {
 }
 
 .bolum {
-    margin: auto auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
 }
 
