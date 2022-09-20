@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* html'ye sabit bir değer (px olarak) verdiğimiz sürece tarayıcı varsayılanı değişse bile font-size'ler değişmez. */
+        /* eğer html değerini responsive yapmak istiyorsak yüzde olarak verebiliriz.(16px*62,5%=10px) Böylece tarayıcı varsayılanına göre font da değişir. */
+        html {
+            font-size: 10px;
+        }
+
+        body {
+            font-size: 1.5rem;
+        }
+
+        @media (min-width:576px) {
+            html {
+                font-size: 12px;
+            }
+
+            #kutu-1 h2 {
+                font-size: 2rem;
+            }
+        }
+
+        @media (min-width:768px) {
+            html {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="kutu-1">
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse corporis eveniet inventore distinctio nobis,
+            quaerat sunt iusto ducimus aliquid quasi velit doloremque magni accusantium, architecto voluptate minima
+            assumenda totam nisi!</p>
+    </div>
+
+    <div id="kutu-2">
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsa blanditiis accusamus nesciunt dolorem
+            magnam labore officia adipisci necessitatibus, et magni eveniet. Beatae fugiat officia quaerat ex voluptatum
+            delectus inventore.</p>
+    </div>
+
+</body>
+
+</html>
