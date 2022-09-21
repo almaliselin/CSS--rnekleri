@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* bir renk tonunu değiştirmek istediğimizde tek bir yerden ulaşıp değiştirmek için kullanılır. */
+        :root {
+            --kahve: #8E3200;
+            --krem: #D7A86E;
+            --pudra: #FFEBC1;
+        }
+
+        body {
+            /* herhangi bir yerde üstteki etiketleri ezebiliriz. */
+            --kahve: #A64B2A;
+            background-color: var(--kahve);
+        }
+
+        .container h2 {
+            border-bottom: 2px solid var(--kahve);
+        }
+
+        .container {
+            background-color: #fff;
+        }
+
+        .container>div>button {
+            background-color: var(--krem);
+            color: var(--pudra);
+            border-color: var(--krem);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <div class="container">
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit hic natus quam fuga incidunt tempore laborum
+            eveniet, aperiam alias, dolorum, quidem sint maxime. Quisquam exercitationem at obcaecati. Eum, earum
+            impedit.</p>
+        <div>
+            <button>Ok</button>
+            <button>Cancel</button>
+        </div>
+    </div>
+</body>
+
+</html>
