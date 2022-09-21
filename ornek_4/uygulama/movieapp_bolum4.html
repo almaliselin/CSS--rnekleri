@@ -16,13 +16,16 @@
     </button>
 
     <header class="main-header">
-        <div class="anakısım">
+        <div class="anakısım" id="main-nav">
             <a href="#" class="btn btn-p">MovieApp</a>
             <nav class="main-nav">
                 <ul class="main-nav_items">
                     <li class="main-nav_item"><a href="#" class="nav_links">Home</a></li>
                     <li class="main-nav_item"><a href="#" class="nav_links">Movies</a></li>
                     <li class="main-nav_item"><a href="#" class="nav_links">Contact</a></li>
+                    <li class="main-nav_item">
+                        <a href="#" onclick="displayMenu()"><i class="fa fa-bars"></i></a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -230,6 +233,13 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function displayMenu() {
+            var link = document.getElementById("main-nav");
+            link.classList.toggle("responsive");
+        }
+    </script>
 </body>
 
 </html>
