@@ -209,7 +209,7 @@ h1 {
 .dügmeler>a {
     display: inline-block;
     text-decoration: none;
-    width: 180px;
+    width: 14%;
     height: 200px;
     padding: 6rem 2rem 2rem;
     margin: auto 3rem;
@@ -265,7 +265,6 @@ h1 {
 
 .plan {
     float: left;
-    width: 30%;
     margin: 1rem;
     height: 400px;
 }
@@ -434,6 +433,8 @@ h1 {
     /* top: -10px; */
     transform: translateY(-10px);
 }
+
+/* footer yüksekliğini ayarlarken calc kullanılabilir. tüm sayfadan diğer yükseklikleri çıkarılabilir. */
 
 .footer {
     background-color: #CE9461;
