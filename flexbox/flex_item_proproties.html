@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            font-size: 62.5%;
+        }
+
+        .container {
+            display: flex;
+
+
+            background-color: #85586F;
+            padding: 3rem;
+            height: 30rem;
+        }
+
+        .item {
+            background-color: #DEB6AB;
+            color: #F8ECD1;
+            padding: 1rem;
+            margin: 1rem;
+            font-size: 2rem;
+            /* flex-grow: 1; */
+        }
+
+        /* shrink özelliğinde kutu daralsın istiyorsan 1, daralmasın istiyorsan 0 */
+        /* grow özelliği alanın hangi oranlarda kutulara dağıtılmasını istiyorsan kullanırsın, yüzde kullanabilirsin sadece flex ile */
+        /* basis özelliği belli bir piksel ölçüsü vermek için kullanılır */
+        /* flex: grow, shrink, basis; */
+
+        .item-1 {
+            order: 2;
+            /* flex-grow: 1; */
+            flex: 1 1;
+        }
+
+        .item-2 {
+            order: 3;
+            flex: 2 1;
+            /* flex-grow: 2; */
+        }
+
+        .item-3 {
+            order: 1;
+            flex: 0 0 150px;
+            /* flex-basis: 150px; */
+            /* flex-shrink: 0; */
+        }
+
+        .item-4 {
+            order: 4;
+            flex: 1 1;
+            /* flex-grow: 1; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="item item-1">item 1</div>
+        <div class="item item-2">item 2</div>
+        <div class="item item-3">item 3</div>
+        <div class="item item-4">item 4</div>
+        <div class="item item-5">item 5</div>
+    </div>
+
+
+</body>
+
+</html>
