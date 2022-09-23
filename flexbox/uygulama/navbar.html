@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\Lenovo\Desktop\CSS _ornekleri\flexbox\uygulama\css\navbar.css">
+    <script src="https://kit.fontawesome.com/315a16516c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav id="navigation">
+        <a href="#" class="logo">Logo</a>
+        <ul class="navigation">
+            <li class="nav-sekil"><a href="#" onclick="displayMenu()"><i class="fa fa-bars"></i></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Careers</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        function displayMenu() {
+            var link = document.getElementById("navigation");
+            link.classList.toggle("responsive");
+        }
+    </script>
+
+</body>
+
+</html>
