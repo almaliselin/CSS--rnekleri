@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --yellow: #FFD24C;
+    --babyblue: #92B4EC;
+}
+
+html {
+    font-size: 62.5%;
+    width: 100%;
+}
+
+body {
+    background-color: #fff;
+}
