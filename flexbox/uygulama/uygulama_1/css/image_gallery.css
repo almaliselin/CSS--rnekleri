@@ -1,0 +1,29 @@
+/* @import url(base.css); */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+h1 {
+    font-family: 'Bungee Spice', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery div {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+img {
+    /* resimlerin yükseklikleri veya genişlikleri farklı ise 100% vererek div içine sığdırabiliriz */
+    /* ya da object fit özelliğini kullanabiliriz. */
+    width: 100%;
+    transition: transform .5s ease-in;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
