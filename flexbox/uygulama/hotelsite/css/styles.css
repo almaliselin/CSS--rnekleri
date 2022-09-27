@@ -38,9 +38,20 @@ h2 {
     font-weight: 400;
 }
 
+.header {
+    background-image: url('../img/bg-1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
 header {
     display: flex;
     justify-content: space-between;
+    background-color: var(--darkbrown);
+    opacity: .8;
+    color: var(--cream);
 }
 
 .logo span {
