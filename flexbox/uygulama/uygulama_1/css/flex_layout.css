@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.logo {
+    background-color: darkgoldenrod;
+    height: 14rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 3.4rem;
+    margin-bottom: 1.3rem;
+    text-align: center;
+}
+
+.logo h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+nav {
+    background-color: darkolivegreen;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+}
+
+nav a {
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem 2.5rem;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: darkolivegreen;
+}
+
+.main {
+    display: flex;
+}
+
+#main {
+    flex: 75%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#section {
+    flex: 25%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.content {
+    margin: 1.5rem 0;
+}
+
+.main h1 {
+    font-size: 2.5rem;
+    padding: .3rem;
+    margin: .3rem;
+}
+
+.main p {
+    font-size: 1.5rem;
+    padding: .3rem;
+    margin: .3rem;
+}
+
+.picture {
+    height: 20rem;
+    margin: 1rem .3rem;
+    background-color: lightslategray;
+}
+
+.menu {
+    background-color: lightslategray;
+    height: 5rem;
+    margin-top: 1rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 5rem;
+    position: relative;
+    bottom: 0;
+    background-color: darkgoldenrod;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+}
