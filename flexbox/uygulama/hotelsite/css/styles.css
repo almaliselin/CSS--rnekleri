@@ -149,3 +149,47 @@ header {
 .icons_alt h3 {
     padding: 1rem;
 }
+
+.about_alt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    width: 100%;
+}
+
+.about_alt div {
+    background-color: #6d988675;
+    height: 40rem;
+    width: 50%;
+    color: var(--darkbrown);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about_alt img {
+    width: 50%;
+    height: 40rem;
+}
+
+.about_alt h2 {
+    font-size: 4rem;
+}
+
+.about_alt a {
+    color: var(--darkbrown);
+    width: 10rem;
+    padding: .5rem;
+    margin-top: .5rem;
+    text-align: center;
+    border-bottom: transparent;
+    transition: border-bottom .5s;
+    transition-timing-function: ease-in;
+}
+
+.about_alt a:hover {
+    border-bottom: .1rem solid var(--darkbrown);
+    border-radius: 5%;
+}
