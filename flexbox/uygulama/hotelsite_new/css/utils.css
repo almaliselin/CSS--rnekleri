@@ -1,0 +1,26 @@
+:root {
+    --white: #fff;
+    --offwhite: #F6F6F6;
+    --beige: #D9CAB3;
+    --seagreen: #6D9886;
+    --darkbrown: #212121;
+}
+
+.text-main {
+    color: var(--darkbrown);
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 1rem 1rem;
+    border: none;
+}
+
+.btn:hover {
+    border: .2rem #212121;
+    border-style: solid;
+}
+
+/* flex items */
+/* flex grid */
