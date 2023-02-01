@@ -178,3 +178,32 @@ img {
     cursor: pointer;
     opacity: 0.85;
 }
+
+.card-body {
+    background-color: var(--seagreen);
+    color: var(--darkbrown);
+    padding: 1.8rem;
+}
+
+.card-body h3 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.card-body p {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.staff img {
+    border-radius: 50%;
+}
+
+.staff img:hover {
+    opacity: 0.8;
+}
+
+.staff h3 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
