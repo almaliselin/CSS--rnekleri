@@ -10,6 +10,7 @@
 
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -103,6 +104,11 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.main-header.blog {
+    background-image: url('../img/bg-2.jpeg');
+    height: 60vh;
 }
 
 .main-header::before {
@@ -261,6 +267,15 @@ img {
 .footer p {
     font-size: 1.8rem;
     margin-top: 0;
+}
+
+#blog-post {
+    padding: 3rem 5rem;
+}
+
+.blog-post {
+    width: 100%;
+    margin-top: 1.5rem;
 }
 
 /* mobile */

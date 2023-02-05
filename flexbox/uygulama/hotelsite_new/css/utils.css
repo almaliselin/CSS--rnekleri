@@ -82,6 +82,18 @@
     color: var(--darkbrown);
 }
 
+.blog-post.flex-columns .column {
+    flex: 1;
+}
+
+.blog-post.flex-columns .column:nth-child(odd) {
+    flex: 2;
+}
+
+.blog-post.flex-columns .column:nth-child(even) {
+    flex: 3;
+}
+
 /* flex grid */
 
 .flex-grid .row {
