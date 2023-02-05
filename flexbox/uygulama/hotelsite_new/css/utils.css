@@ -114,3 +114,22 @@
 .section-padding {
     padding: 2rem 2rem 4rem;
 }
+
+@media(max-width: 768px) {
+
+    .flex-columns .column {
+        flex: 100%;
+    }
+
+    .flex-items {
+        flex-direction: column;
+    }
+
+    .section-header {
+        padding: 2.5rem;
+    }
+
+    .flex-grid .column {
+        flex: 50%;
+    }
+}
