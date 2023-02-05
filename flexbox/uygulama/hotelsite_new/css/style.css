@@ -207,3 +207,57 @@ img {
     font-size: 2rem;
     margin-bottom: 0;
 }
+
+.flex-columns .column .contact-text {
+    background-color: var(--seagreen);
+    color: var(--darkbrown);
+
+}
+
+.flex-columns .column .contact-text .info {
+    padding: 1.2rem 0;
+    width: 100%;
+
+}
+
+.flex-columns .column .contact-text .info input {
+    width: 100%;
+    border-color: transparent;
+    height: 3.5rem;
+}
+
+.flex-columns .column .contact-text .info h3 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.flex-columns .column .contact-text button {
+    background-color: #21212165;
+    border-color: transparent;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+}
+
+.flex-columns .column .contact-text button:hover {
+    color: var(--offwhite);
+}
+
+.footer {
+    padding: 5rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.socials a {
+    padding: 0.8rem;
+    color: var(--darkbrown);
+}
+
+.socials a:hover {
+    opacity: 0.8;
+}
+
+.footer p {
+    font-size: 1.8rem;
+    margin-top: 0;
+}
