@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: "header header header"
+                "sidebar content1 content1"
+                "sidebar content2 content2"
+                "content3 content4 content4"
+                ". footer footer";
+            gap: 3px;
+        }
+
+        .header {
+            grid-area: header;
+            background-color: red;
+            text-align: center;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+        }
+
+        .content-1 {
+            grid-area: content1;
+        }
+
+        .content-2 {
+            grid-area: content2;
+        }
+
+        .content-3 {
+            grid-area: content3;
+        }
+
+        .content-4 {
+            grid-area: content4;
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color: red;
+        }
+
+        section,
+        header,
+        footer {
+            border: 1px solid salmon;
+        }
+
+        @media(max-width:768px) {
+            .container {
+                grid-template-areas: "header header header"
+                    "sidebar sidebar sidebar"
+                    "content1 content2 content2"
+                    "content3 content3 content3"
+                    "content4 content4 content4"
+                    "footer footer footer";
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1>Page Header</h1>
+        </header>
+        <section class="content-1">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus necessitatibus minima, saepe,
+                perferendis ad id aut veritatis minus eveniet quas molestias quidem, omnis officiis hic fugiat doloribus
+                quibusdam possimus! Sint.</p>
+        </section>
+        <section class="sidebar">
+            <h2>Lorem, ipsum.</h2>
+            <ul>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+            </ul>
+        </section>
+        <section class="content-2">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi accusantium magnam tempora in hic enim
+                iste quod modi, ratione accusamus magni. Ab a ipsa ducimus?</p>
+        </section>
+        <section class="content-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis in necessitatibus iste commodi
+                accusamus atque temporibus voluptates quos aliquam illum, culpa rem corrupti voluptate aliquid dicta
+                maiores inventore consequuntur architecto adipisci molestias.</p>
+        </section>
+        <section class="content-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt enim adipisci dicta facilis cum magnam!
+                Possimus est error iure asperiores? Dicta,
+                fuga alias?
+            </p>
+        </section>
+        <footer class="footer">
+            <h5>Lorem ipsum dolor sit amet.</h5>
+        </footer>
+    </div>
+
+</body>
+
+</html>
