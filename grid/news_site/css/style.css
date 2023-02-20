@@ -1,1 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Inter:wght@300;500;700&family=Merriweather:ital,wght@1,300;1,400;1,700&display=swap');
+@import url(utils.css);
+
+
+.navbar {
+    background-color: #647e68a4;
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+
+.navbar .container {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 1fr;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.navbar ul {
+    display: flex;
+    justify-self: flex-start;
+}
+
+.navbar ul li a {
+    padding: 0.8rem;
+    font-size: 1.8rem;
+    border-left: 0.3rem solid transparent;
+}
+
+.navbar .fa-neos {
+    justify-self: center;
+    padding: .6rem;
+}
+
+.navbar a:hover {
+    color: var(--lacivert);
+    transition: all 0.5s;
+}
+
+.navbar ul li a:hover {
+    border-left: 0.3rem solid var(--lacivert);
+    transition: all 0.5s;
+}
+
+
+.social-links a {
+    padding: .8rem;
+}
