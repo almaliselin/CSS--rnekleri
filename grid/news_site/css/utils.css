@@ -48,7 +48,7 @@ h6 {
     font-family: 'Merriweather', serif;
 }
 
-.btn {
+.btn-1 {
     cursor: pointer;
     text-align: center;
     display: inline-block;
@@ -59,15 +59,57 @@ h6 {
     transition: all 0.4s;
 }
 
-.btn:hover {
+.btn-1:hover {
     border: .1rem var(--krem);
     border-style: solid;
     background-color: var(--krem);
     color: var(--lacivert);
 }
 
+.btn-2 {
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    padding: .5rem;
+    border: .1rem solid var(--krem);
+    background-color: var(--krem);
+    color: var(--lacivert);
+    transition: all 0.4s;
+}
+
+.btn-2:hover {
+    border: .1rem var(--lacivert);
+    border-style: solid;
+    background-color: var(--lacivert);
+    color: var(--krem);
+}
+
 .container {
     max-width: var(--max-width);
     margin: 0 auto;
     padding: 0 2rem;
+}
+
+.margin-top {
+    margin-top: 0.7rem;
+}
+
+.margin-bottom {
+    margin-bottom: 0.7rem;
+}
+
+.margin-left {
+    margin-left: 0.7rem;
+}
+
+.margin-right {
+    margin-right: 0.7rem;
+}
+
+.category {
+    background-color: var(--kahverengi);
+    padding: 0.3rem;
+    font-size: 1.3rem;
+    border: 0.1rem solid var(--kahverengi);
+    border-radius: 15px;
 }

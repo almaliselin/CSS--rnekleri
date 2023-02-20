@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Inter:wght@300;500;700&family=Merriweather:ital,wght@1,300;1,400;1,700&display=swap');
 @import url(utils.css);
 
-
+/* navbar */
 .navbar {
     background-color: #647e68a4;
     position: sticky;
-    z-index: 3;
+    z-index: 10;
     top: 0;
 }
 
@@ -45,4 +45,95 @@
 
 .social-links a {
     padding: .8rem;
+}
+
+/* header */
+
+.header {
+    background-color: var(--lacivert);
+    padding: 3rem;
+    position: relative;
+}
+
+.header::before {
+    content: ' ';
+    background-image: url(../img/rowing.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.header .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    height: 50vh;
+}
+
+.header-content {
+    /* background-color: #1827478e; */
+    z-index: 10;
+    padding: 0.4rem;
+}
+
+/* articles */
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.article h3 {
+    color: var(--yeşil);
+    font-family: 'Gloock', serif;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--yeşil);
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.footer-content>div {
+    padding: 0 1rem;
+}
+
+.fa-neos.fa-6x {
+    margin: 1.5rem 0;
+}
+
+.subscribe input {
+    padding: .5rem;
+}
+
+.links ul li {
+    padding: 0.7rem 0;
+    border-bottom: .2rem dotted #182747c4;
+    align-items: start;
+}
+
+.links ul li a:hover {
+    color: var(--lacivert);
+}
+
+.copyright {
+    text-align: center;
+    background-color: #182747c4;
+    padding: 1rem;
+    margin: 1rem 0;
 }
