@@ -22,8 +22,8 @@ body {
     font-family: 'Merriweather', serif;
     font-size: 1.6rem;
     line-height: 1.5;
-    background-color: var(--kahverengi);
-    color: var(--krem);
+    background-color: var(--krem);
+    color: var(--kahverengi);
 }
 
 ul {
@@ -112,4 +112,6 @@ h6 {
     font-size: 1.3rem;
     border: 0.1rem solid var(--kahverengi);
     border-radius: 15px;
+    /* margin-bottom: 1rem; */
+    color: var(--krem);
 }
