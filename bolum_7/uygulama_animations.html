@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/315a16516c.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            color: #fff;
+        }
+
+        #page_1 {
+            height: 100vh;
+            background-color: cornflowerblue;
+            width: 100%;
+        }
+
+        #page_2 {
+            height: 100vh;
+            background-color: darkorchid;
+        }
+
+        #page_3 {
+            height: 100vh;
+            background-color: chocolate;
+        }
+
+        .page {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        h1,
+        p,
+        a {
+            margin: 10px;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        p {
+            width: 75%;
+        }
+
+        #page_1 h1 {
+            position: relative;
+            animation: h1 2s ease-in forwards;
+        }
+
+        #page_1 p {
+            position: relative;
+            animation: p 2s ease-in forwards;
+            top: 250px;
+        }
+
+        @keyframes h1 {
+            from {
+                top: 0;
+            }
+
+            to {
+                top: 220px;
+            }
+        }
+
+        @keyframes p {
+            from {
+                left: 0;
+            }
+
+            to {
+                left: 160px;
+            }
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: aliceblue;
+            color: darkblue;
+            border: none;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+
+            transition: all .8s;
+            background-color: darkblue;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="page_1" class="page">
+        <h1>Page 1</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ratione rem facere mollitia quo vero
+            temporibus molestias est nam, quisquam voluptas ab deserunt perspiciatis voluptatem expedita distinctio.
+            Totam, quasi dolor!</p>
+        <div>
+            <a href="#page_2" class="btn">Next Page</a>
+        </div>
+    </div>
+    <div id="page_2" class="page">
+        <h1>Page 2</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ratione rem facere mollitia quo vero
+            temporibus molestias est nam, quisquam voluptas ab deserunt perspiciatis voluptatem expedita distinctio.
+            Totam, quasi dolor!</p>
+        <div>
+            <a href="#page_3" class="btn">Next Page</a>
+            <a href="#page_1" class="btn">Previous Page</a>
+        </div>
+
+
+    </div>
+    <div id="page_3" class="page">
+
+        <h1>Page 3</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ratione rem facere mollitia quo vero
+            temporibus molestias est nam, quisquam voluptas ab deserunt perspiciatis voluptatem expedita distinctio.
+            Totam, quasi dolor!</p>
+        <div>
+            <a href="#page_2" class="btn">Previous Page</a>
+        </div>
+    </div>
+</body>
+
+</html>
